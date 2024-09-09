@@ -10,8 +10,7 @@ namespace Algorithsm
 {
     public class Program
     {
-        
-        
+
         static void Main(string[] args)
         {
             FindProductByName();
@@ -19,7 +18,7 @@ namespace Algorithsm
             FindProductByPrice();
             SortByPrice();
             SortByNameLenght();
-            //MapProductByCate();
+            MapProductByCate();
             MinPrice();
             MaxPrice();
             Console.ReadKey();
@@ -27,20 +26,20 @@ namespace Algorithsm
 
         private static void MinPrice()
         {
-            Console.WriteLine("Min Price: ");
+            Console.WriteLine("\n-Min Price: " );
             Product product = Database.Instance.minPrice(Database.Instance.Products);
             PrintATable(product);
         }
         private static void MaxPrice()
         {
-            Console.WriteLine("Max Price: ");
+            Console.WriteLine("\n-Max Price: ");
             Product product = Database.Instance.maxPrice(Database.Instance.Products);
             //product = Database.Instance.maxPrice(Database.Instance.Products);
             PrintATable(product);
         }
         public static void FindProductByName()
         {
-            Console.Write("Input Name: ");
+            Console.Write("-Input Name: ");
             string nameProduct = Console.ReadLine().ToUpper();
             Product product = new Product();
             product = Database.Instance.FindProductName(nameProduct, Database.Instance.Products);
@@ -48,7 +47,7 @@ namespace Algorithsm
         }
         public static void FindProductByCateID()
         {
-            Console.Write("Input CateID: ");
+            Console.Write("\n-Input CateID: ");
             int cateID = int.Parse(Console.ReadLine());
             List<Product> products = new List<Product>();
             products = Database.Instance.FindProductByCategoryID(cateID, products);
@@ -57,7 +56,7 @@ namespace Algorithsm
 
         public static void FindProductByPrice()
         {
-            Console.Write("Input Price: ");
+            Console.Write("\n-Input Price: ");
             int cateID = int.Parse(Console.ReadLine());
             List<Product> products = new List<Product>();
             products = Database.Instance.FindProductByPrice(cateID, products);
@@ -66,26 +65,26 @@ namespace Algorithsm
 
         public static void SortByPrice()
         {
-            Console.WriteLine("Sort Price: ");
+            Console.WriteLine("\n-Sort Price: ");
             List<Product> products = new List<Product>();
             products = Database.Instance.SortByPrice(products);
             PrintTable(products);
         }
         public static void SortByNameLenght()
         {
-            Console.WriteLine("Sort Name Lenght: ");
+            Console.WriteLine("\n-Sort Name Lenght: ");
             List<Product> products = new List<Product>();
             products = Database.Instance.SortByName(products);
             PrintTable(products);
         }
         public static void MapProductByCate()
         {
-            Console.Write("Product & Category: ");
-            int input = int.Parse(Console.ReadLine()) - 1;
-            List <Product> products = new List<Product>();
-            //List<Category> categories = new List<Category>();
-            products = Database.Instance.mapProductByCategory(products,Database.Instance.Categories);
-            Console.WriteLine($"Category Name: {Database.Instance.Categories[input].name}  ID: {Database.Instance.Categories[input].id}");
+            Console.Write("\n-Product & Category: ");
+            int input = int.Parse(Console.ReadLine());
+            List<Product> products = new List<Product>();
+            products = Database.Instance.table[input];
+            Database.Instance.mapProductByCategory(products,Database.Instance.Categories);
+            Console.WriteLine($"-Category Name: {Database.Instance.Categories[input - 1].name}  ID: {Database.Instance.Categories[input - 1].id}");
             PrintTable(products);
         }
         public static void PrintTable(List<Product> pro)

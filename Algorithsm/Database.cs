@@ -29,6 +29,13 @@ namespace Algorithsm
             new Category(3,KeyDic.nameCard),
             new Category(4,KeyDic.nameAcsesory)
         };
+        public Dictionary<int, List<Product>> table = new Dictionary<int, List<Product>>()
+        {
+            {1, new List<Product>()},
+            {2, new List<Product>()},
+            {3, new List<Product>()},
+            {4, new List<Product>()}
+        };
 
         public List<Product> Products { get => products; }
         public List<Category> Categories { get => categories; }
@@ -95,9 +102,9 @@ namespace Algorithsm
                 {
                     if (Products[i]._name.Length < Products[j]._name.Length)
                     {
-                        prod = Products[j];
-                        Products[j] = Products[i];
-                        Products[i] = prod;
+                        prod = Products[i];
+                        Products[i] = Products[j];
+                        Products[j] = prod;
                     }
                 }
             }
@@ -107,23 +114,26 @@ namespace Algorithsm
 
         public List<Product> sortByCategoryName(List<Product> pros, List<Category> cate)
         {
-
-
+            //for (int j = 0; j < Products.Count; j++)
+            //{
+            //    if (Products[j]._categoryId == cate[j].id)
+            //    {
+            //        table.Add(cate[j].id, new List<Entity>() );
+            //    }
+            //}
             return pros;
         }
 
         public List<Product> mapProductByCategory(List<Product> pros, List<Category> cate)
         {
-            int ID = 0;
-            for (int i = 0; i < Categories.Count; i++)
-            {
-                ID = Categories[i].id;
-            }
             for (int j = 0; j < Products.Count; j++)
             {
-                if (Products[j]._categoryId == ID)
+                for (int i = 0; i < Categories.Count; i++)
                 {
-                    pros.Add(Products[j]);
+                    if (Products[j]._categoryId.Equals(Categories[i].id))
+                    {
+                        table[Categories[i].id].Add(Products[j]);
+                    }
                 }
             }
             return pros;
@@ -132,9 +142,9 @@ namespace Algorithsm
         {
             Product product = new Product();
             product._price = Products[0]._price;
-            for (int i = 1; i < Products.Count; i++)
+            for (int i = 0; i < Products.Count; i++)
             {
-                if (product._price > Products[i]._price)
+                if (product._price >= Products[i]._price)
                 {
                     product = Products[i];
                 }
@@ -145,14 +155,12 @@ namespace Algorithsm
         {
             Product product = new Product();
             product._price = Products[0]._price;
-            for (int i = 1; i < Products.Count; i++)
+            for (int i = 0; i < Products.Count; i++)
             {
-                if (Products[i]._price > product._price)
+                if (Products[i]._price >= product._price)
                 {
                     product = Products[i];
                 }
-                else
-                    product = Products[0];
             }
             return product;
         }

@@ -15,7 +15,7 @@ namespace Algorithsm
         public const string nameKeyboard = "KEYBOARD";
         public const string nameMouse = "MOUSE";
         public const string nameVGA = "VGA";
-        public const string nameMonitor = "MOINITOR";
+        public const string nameMonitor = "MONITOR";
         public const string nameCase = "CASE";
 
         public const string nameComputer = "COMPUTER";

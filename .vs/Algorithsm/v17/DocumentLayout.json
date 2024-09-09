@@ -1,33 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\OS\\Desktop\\Algorithsm-VuLinh\\Algorithms-VuLinh\\",
+  "WorkspaceRootPath": "C:\\Users\\PC\\Desktop\\Algorithms-VuLinh\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2AE43826-44F2-446A-B54A-6DEE32CFD5CB}|Algorithsm\\Algorithsm.csproj|c:\\users\\os\\desktop\\algorithsm-vulinh\\algorithms-vulinh\\algorithsm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2AE43826-44F2-446A-B54A-6DEE32CFD5CB}|Algorithsm\\Algorithsm.csproj|c:\\users\\pc\\desktop\\algorithms-vulinh\\algorithsm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2AE43826-44F2-446A-B54A-6DEE32CFD5CB}|Algorithsm\\Algorithsm.csproj|solutionrelative:algorithsm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2AE43826-44F2-446A-B54A-6DEE32CFD5CB}|Algorithsm\\Algorithsm.csproj|c:\\users\\os\\desktop\\algorithsm-vulinh\\algorithms-vulinh\\algorithsm\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2AE43826-44F2-446A-B54A-6DEE32CFD5CB}|Algorithsm\\Algorithsm.csproj|solutionrelative:algorithsm\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2AE43826-44F2-446A-B54A-6DEE32CFD5CB}|Algorithsm\\Algorithsm.csproj|c:\\users\\os\\desktop\\algorithsm-vulinh\\algorithms-vulinh\\algorithsm\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2AE43826-44F2-446A-B54A-6DEE32CFD5CB}|Algorithsm\\Algorithsm.csproj|solutionrelative:algorithsm\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2AE43826-44F2-446A-B54A-6DEE32CFD5CB}|Algorithsm\\Algorithsm.csproj|c:\\users\\os\\desktop\\algorithsm-vulinh\\algorithms-vulinh\\algorithsm\\keydic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2AE43826-44F2-446A-B54A-6DEE32CFD5CB}|Algorithsm\\Algorithsm.csproj|solutionrelative:algorithsm\\keydic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2AE43826-44F2-446A-B54A-6DEE32CFD5CB}|Algorithsm\\Algorithsm.csproj|c:\\users\\os\\desktop\\algorithsm-vulinh\\algorithms-vulinh\\algorithsm\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2AE43826-44F2-446A-B54A-6DEE32CFD5CB}|Algorithsm\\Algorithsm.csproj|C:\\Users\\PC\\Desktop\\Algorithms-VuLinh\\algorithsm\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2AE43826-44F2-446A-B54A-6DEE32CFD5CB}|Algorithsm\\Algorithsm.csproj|solutionrelative:algorithsm\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2AE43826-44F2-446A-B54A-6DEE32CFD5CB}|Algorithsm\\Algorithsm.csproj|c:\\users\\os\\desktop\\algorithsm-vulinh\\algorithms-vulinh\\algorithsm\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2AE43826-44F2-446A-B54A-6DEE32CFD5CB}|Algorithsm\\Algorithsm.csproj|C:\\Users\\PC\\Desktop\\Algorithms-VuLinh\\algorithsm\\keydic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AE43826-44F2-446A-B54A-6DEE32CFD5CB}|Algorithsm\\Algorithsm.csproj|solutionrelative:algorithsm\\keydic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AE43826-44F2-446A-B54A-6DEE32CFD5CB}|Algorithsm\\Algorithsm.csproj|C:\\Users\\PC\\Desktop\\Algorithms-VuLinh\\algorithsm\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2AE43826-44F2-446A-B54A-6DEE32CFD5CB}|Algorithsm\\Algorithsm.csproj|solutionrelative:algorithsm\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2AE43826-44F2-446A-B54A-6DEE32CFD5CB}|Algorithsm\\Algorithsm.csproj|c:\\users\\os\\desktop\\algorithsm-vulinh\\algorithms-vulinh\\algorithsm\\sigleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2AE43826-44F2-446A-B54A-6DEE32CFD5CB}|Algorithsm\\Algorithsm.csproj|c:\\users\\pc\\desktop\\algorithms-vulinh\\algorithsm\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AE43826-44F2-446A-B54A-6DEE32CFD5CB}|Algorithsm\\Algorithsm.csproj|solutionrelative:algorithsm\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AE43826-44F2-446A-B54A-6DEE32CFD5CB}|Algorithsm\\Algorithsm.csproj|C:\\Users\\PC\\Desktop\\Algorithms-VuLinh\\algorithsm\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AE43826-44F2-446A-B54A-6DEE32CFD5CB}|Algorithsm\\Algorithsm.csproj|solutionrelative:algorithsm\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AE43826-44F2-446A-B54A-6DEE32CFD5CB}|Algorithsm\\Algorithsm.csproj|C:\\Users\\PC\\Desktop\\Algorithms-VuLinh\\algorithsm\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AE43826-44F2-446A-B54A-6DEE32CFD5CB}|Algorithsm\\Algorithsm.csproj|solutionrelative:algorithsm\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AE43826-44F2-446A-B54A-6DEE32CFD5CB}|Algorithsm\\Algorithsm.csproj|C:\\Users\\PC\\Desktop\\Algorithms-VuLinh\\algorithsm\\sigleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2AE43826-44F2-446A-B54A-6DEE32CFD5CB}|Algorithsm\\Algorithsm.csproj|solutionrelative:algorithsm\\sigleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -44,50 +48,43 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\OS\\Desktop\\Algorithsm-VuLinh\\Algorithms-VuLinh\\Algorithsm\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Algorithms-VuLinh\\Algorithsm\\Program.cs",
               "RelativeDocumentMoniker": "Algorithsm\\Program.cs",
-              "ToolTip": "C:\\Users\\OS\\Desktop\\Algorithsm-VuLinh\\Algorithms-VuLinh\\Algorithsm\\Program.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Algorithms-VuLinh\\Algorithsm\\Program.cs",
               "RelativeToolTip": "Algorithsm\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAXAAAAAAAAAA==",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-09T10:41:36.648Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ProductManager.cs",
-              "DocumentMoniker": "C:\\Users\\OS\\Desktop\\Algorithsm-VuLinh\\Algorithms-VuLinh\\Algorithsm\\ProductManager.cs",
-              "RelativeDocumentMoniker": "Algorithsm\\ProductManager.cs",
-              "ToolTip": "C:\\Users\\OS\\Desktop\\Algorithsm-VuLinh\\Algorithms-VuLinh\\Algorithsm\\ProductManager.cs",
-              "RelativeToolTip": "Algorithsm\\ProductManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Database.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Algorithms-VuLinh\\Algorithsm\\Database.cs",
+              "RelativeDocumentMoniker": "Algorithsm\\Database.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Algorithms-VuLinh\\Algorithsm\\Database.cs",
+              "RelativeToolTip": "Algorithsm\\Database.cs",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAqwGoAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T10:41:36.541Z",
+              "WhenOpened": "2024-09-09T10:41:36.211Z",
+              "IsPinned": true,
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\OS\\Desktop\\Algorithsm-VuLinh\\Algorithms-VuLinh\\Algorithsm\\Product.cs",
-              "RelativeDocumentMoniker": "Algorithsm\\Product.cs",
-              "ToolTip": "C:\\Users\\OS\\Desktop\\Algorithsm-VuLinh\\Algorithms-VuLinh\\Algorithsm\\Product.cs",
-              "RelativeToolTip": "Algorithsm\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T10:41:36.451Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "KeyDic.cs",
-              "DocumentMoniker": "C:\\Users\\OS\\Desktop\\Algorithsm-VuLinh\\Algorithms-VuLinh\\Algorithsm\\KeyDic.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Algorithms-VuLinh\\Algorithsm\\KeyDic.cs",
               "RelativeDocumentMoniker": "Algorithsm\\KeyDic.cs",
-              "ToolTip": "C:\\Users\\OS\\Desktop\\Algorithsm-VuLinh\\Algorithms-VuLinh\\Algorithsm\\KeyDic.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Algorithms-VuLinh\\Algorithsm\\KeyDic.cs",
               "RelativeToolTip": "Algorithsm\\KeyDic.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-09T10:41:36.349Z",
               "EditorCaption": ""
@@ -95,41 +92,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Database.cs",
-              "DocumentMoniker": "C:\\Users\\OS\\Desktop\\Algorithsm-VuLinh\\Algorithms-VuLinh\\Algorithsm\\Database.cs",
-              "RelativeDocumentMoniker": "Algorithsm\\Database.cs",
-              "ToolTip": "C:\\Users\\OS\\Desktop\\Algorithsm-VuLinh\\Algorithms-VuLinh\\Algorithsm\\Database.cs",
-              "RelativeToolTip": "Algorithsm\\Database.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Entity.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Algorithms-VuLinh\\Algorithsm\\Entity.cs",
+              "RelativeDocumentMoniker": "Algorithsm\\Entity.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Algorithms-VuLinh\\Algorithsm\\Entity.cs",
+              "RelativeToolTip": "Algorithsm\\Entity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T10:41:36.211Z",
+              "WhenOpened": "2024-09-09T16:18:22.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductManager.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Algorithms-VuLinh\\Algorithsm\\ProductManager.cs",
+              "RelativeDocumentMoniker": "Algorithsm\\ProductManager.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Algorithms-VuLinh\\Algorithsm\\ProductManager.cs",
+              "RelativeToolTip": "Algorithsm\\ProductManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T10:41:36.541Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Algorithms-VuLinh\\Algorithsm\\Product.cs",
+              "RelativeDocumentMoniker": "Algorithsm\\Product.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Algorithms-VuLinh\\Algorithsm\\Product.cs",
+              "RelativeToolTip": "Algorithsm\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T10:41:36.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\OS\\Desktop\\Algorithsm-VuLinh\\Algorithms-VuLinh\\Algorithsm\\Category.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Algorithms-VuLinh\\Algorithsm\\Category.cs",
               "RelativeDocumentMoniker": "Algorithsm\\Category.cs",
-              "ToolTip": "C:\\Users\\OS\\Desktop\\Algorithsm-VuLinh\\Algorithms-VuLinh\\Algorithsm\\Category.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Algorithms-VuLinh\\Algorithsm\\Category.cs",
               "RelativeToolTip": "Algorithsm\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-09T10:41:36.091Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "SigleTon.cs",
-              "DocumentMoniker": "C:\\Users\\OS\\Desktop\\Algorithsm-VuLinh\\Algorithms-VuLinh\\Algorithsm\\SigleTon.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Algorithms-VuLinh\\Algorithsm\\SigleTon.cs",
               "RelativeDocumentMoniker": "Algorithsm\\SigleTon.cs",
-              "ToolTip": "C:\\Users\\OS\\Desktop\\Algorithsm-VuLinh\\Algorithms-VuLinh\\Algorithsm\\SigleTon.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Algorithms-VuLinh\\Algorithsm\\SigleTon.cs",
               "RelativeToolTip": "Algorithsm\\SigleTon.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T10:41:30.71Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-09T10:41:30.71Z"
             }
           ]
         }

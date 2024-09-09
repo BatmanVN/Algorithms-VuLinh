@@ -12,3 +12,10 @@ C:\Users\OS\Desktop\Algorithsm-VuLinh\Algorithms-VuLinh\Algorithsm\obj\Debug\Alg
 C:\Users\OS\Desktop\Algorithsm-VuLinh\Algorithms-VuLinh\Algorithsm\obj\Debug\Algorithsm.csproj.CoreCompileInputs.cache
 C:\Users\OS\Desktop\Algorithsm-VuLinh\Algorithms-VuLinh\Algorithsm\obj\Debug\Algorithsm.exe
 C:\Users\OS\Desktop\Algorithsm-VuLinh\Algorithms-VuLinh\Algorithsm\obj\Debug\Algorithsm.pdb
+C:\Users\PC\Desktop\Algorithms-VuLinh\Algorithsm\bin\Debug\Algorithsm.exe.config
+C:\Users\PC\Desktop\Algorithms-VuLinh\Algorithsm\bin\Debug\Algorithsm.exe
+C:\Users\PC\Desktop\Algorithms-VuLinh\Algorithsm\bin\Debug\Algorithsm.pdb
+C:\Users\PC\Desktop\Algorithms-VuLinh\Algorithsm\obj\Debug\Algorithsm.csproj.AssemblyReference.cache
+C:\Users\PC\Desktop\Algorithms-VuLinh\Algorithsm\obj\Debug\Algorithsm.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\Algorithms-VuLinh\Algorithsm\obj\Debug\Algorithsm.exe
+C:\Users\PC\Desktop\Algorithms-VuLinh\Algorithsm\obj\Debug\Algorithsm.pdb
