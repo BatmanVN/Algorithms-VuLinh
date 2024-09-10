@@ -22,5 +22,15 @@ namespace Algorithsm
         public const string nameMemory = "MEMORY";
         public const string nameCard = "CARD";
         public const string nameAcsesory = "ACSESORY";
+
+
+        public const string nameSport = "THE THAO";
+        public const string nameScoial = "XA HOI";
+        public const string nameSportCountry = "THE THAO TRONG NUOC";
+        public const string nameTraffic = "GIAO THONG";
+        public const string nameEnviroment = "MOI TRUONG";
+        public const string nameSportNationnal = "THE THAO QUOC TE";
+        public const string nameEvirCity = "MOI TRUONG DO THI";
+        public const string nameBadTraffic = "GIAO THONG UN TAC";
     }
 }
