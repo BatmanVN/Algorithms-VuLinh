@@ -19,17 +19,19 @@ namespace Algorithsm
             new Menu(7,KeyDic.nameEvirCity,5),
             new Menu(8,KeyDic.nameBadTraffic,4)
         };
-
+        
+        public Dictionary<int,List<Menu>> listMenus = new Dictionary<int,List<Menu>>();
+        
         public void printMenu(List<Menu> menu)
         {
-            menu = new List<Menu>();
-            for (int i = 0; i < menu.Count; i++)
-            {
-                if (menus[i].id == menus[i].parentID)
-                {
-                    
-                }
-            }
+            //menu = new List<Menu>();
+            //for (int i = 0; i < menus.Count; i++)
+            //{
+            //    if (menus[0].id == menus[i].parentID)
+            //    {
+            //        listMenus.Add(menus[0].id,menu);
+            //    }
+            //}
         }
 
     }

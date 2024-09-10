@@ -11,9 +11,9 @@ namespace Algorithsm
         static DataSalary dataSalary = new DataSalary();
         static void Main(string[] args)
         {
-            //CalSalary();
-            //CalsalaryRecursion();
-            //CallMonth();
+            CalSalary();
+            CalsalaryRecursion();
+            CallMonth();
             CallMonthRecursion();
             Console.ReadKey();
         }
@@ -55,9 +55,10 @@ namespace Algorithsm
             float money = int.Parse(Console.ReadLine());
             Console.Write("-Rate: ");
             float rate = int.Parse(Console.ReadLine());
-            float month = dataSalary.callMonthRecurison(money, rate);
+            float month = 0; 
+            month = dataSalary.callMonthRecurison(money, rate, month);
             Console.WriteLine($"-Money:{money} with -Rate:{rate} ");
-            Console.WriteLine($"-Month to double Money: {(int)month}");
+            Console.WriteLine($"-Month to double Money: {month}");
         }
     }
 }

@@ -16,7 +16,9 @@ namespace Algorithsm
         }
         public static void PrintMenu()
         {
-
+            List<Menu> menus = menuData.listMenus[menuData.menus[0].id];
+            menuData.printMenu(menus);
+            printTable(menus);
         }
 
         public static void printTable(List<Menu> list)
