@@ -43,8 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Stack.cs" />
-    <Compile Include="CalculateSalaryDemo.cs" />
+    <Compile Include="23-25\Node.cs" />
+    <Compile Include="23-25\Stack.cs" />
+    <None Include="CalculateSalaryDemo.cs" />
     <Compile Include="1-16\Category.cs" />
     <Compile Include="1-16\Database.cs" />
     <Compile Include="DataSalary.cs" />
@@ -54,9 +55,9 @@
     <Compile Include="MenuData.cs" />
     <None Include="MenuDemo.cs" />
     <Compile Include="1-16\Product.cs" />
-    <None Include="1-16\Program.cs" />
+    <Compile Include="1-16\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Queu.cs" />
+    <Compile Include="23-25\Queue.cs" />
     <Compile Include="SigleTon.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Algorithsm._23_25;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
@@ -46,9 +47,7 @@ namespace Algorithsm
             for (int i = 0; i < Products.Count; i++)
             {
                 if (Products[i]._name == nameProduct)
-                {
                     product = Products[i];
-                }
             }
             return product;
         }
@@ -57,9 +56,7 @@ namespace Algorithsm
             for (int i = 0; i < Products.Count; i++)
             {
                 if (Products[i]._categoryId == categoryID)
-                {
                     pros.Add(Products[i]);
-                }
             }
             return pros;
         }
@@ -69,9 +66,7 @@ namespace Algorithsm
             for (int i = 0; i < Products.Count; i++)
             {
                 if (Products[i]._price <= price)
-                {
                     pros.Add(Products[i]);
-                }
             }
             return pros;
         }
@@ -153,9 +148,7 @@ namespace Algorithsm
             for (int i = 0; i < Products.Count; i++)
             {
                 if (product._price >= Products[i]._price)
-                {
                     product = Products[i];
-                }
             }
             return product;
         }
@@ -166,9 +159,7 @@ namespace Algorithsm
             for (int i = 0; i < Products.Count; i++)
             {
                 if (Products[i]._price >= product._price)
-                {
                     product = Products[i];
-                }
             }
             return product;
         }

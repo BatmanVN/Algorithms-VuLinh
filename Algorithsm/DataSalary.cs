@@ -8,8 +8,8 @@ namespace Algorithsm
 {
     public class DataSalary
     {
-        public static float Money = 0;
-        public static float holdMoney = 0;
+        private float Money = 0;
+        private float holdMoney = 0;
         public float calSalary(float salary, int n)
         {
             float bonus = 10f / 100f;
@@ -25,13 +25,9 @@ namespace Algorithsm
         {
             float bonus = 10f / 100f;
             if (n == 0)
-            {
                 return salary;
-            }
             if (n > 0)
-            {
                 salary += salary * bonus;
-            }
             return calSalaryRecursion(salary, n - 1);
         }
 
@@ -59,6 +55,5 @@ namespace Algorithsm
             money += holdMoney;
             return callMonthRecurison(money, rate, month + 1);
         }
-
     }
 }
