@@ -78,50 +78,58 @@ namespace Algorithsm
         public List<Product> SortByPrice(List<Product> pros)
         {
             Product prod;
-            for (int i = 0; i < Products.Count - 1; i++)
+            List<Product> prods = pros;
+            for (int i = 0; i < prods.Count - 1; i++)
             {
-                for (int j = i+1; j < Products.Count; j++)
+                for (int j = i+1; j < prods.Count; j++)
                 {
-                    if (Products[i]._price > Products[j]._price)
+                    if (prods[i]._price > prods[j]._price)
                     {
-                        prod = Products[j];
-                        Products[j] = Products[i];
-                        Products[i] = prod;
+                        prod = prods[j];
+                        prods[j] = prods[i];
+                        prods[i] = prod;
                     }
                 }
             }
-            pros = Products;
             return pros;
         }
         public List<Product> SortByName(List<Product> pros)
         {
             Product prod;
-            for (int i = 0; i < Products.Count - 1; i++)
+            List<Product> prods = pros;
+            int holdPostion = 0;
+            for (int i = 0; i < prods.Count; i++)
             {
-                for (int j = i + 1; j < Products.Count; j++)
+                prod = prods[i];
+                holdPostion = i;
+                while (holdPostion > 0 && prods[holdPostion-1]._name.Length < prod._name.Length)
                 {
-                    if (Products[i]._name.Length < Products[j]._name.Length)
-                    {
-                        prod = Products[i];
-                        Products[i] = Products[j];
-                        Products[j] = prod;
-                    }
+                    prods[holdPostion] = prods[holdPostion-1];
+                    holdPostion = holdPostion - 1;
                 }
+                prods[holdPostion] = prod;
             }
-            pros = Products;
-            return pros;
+            return prods;
         }
 
-        public List<Product> sortByCategoryName(List<Product> pros, List<Category> cate)
+        public List<Product> sortByCategoryName(List<Product> pros, List<Category> cate,int input)
         {
-            //for (int j = 0; j < Products.Count; j++)
-            //{
-            //    if (Products[j]._categoryId == cate[j].id)
-            //    {
-            //        table.Add(cate[j].id, new List<Entity>() );
-            //    }
-            //}
-            return pros;
+            mapProductByCategory(Products, Categories);
+            Product prod;
+            List<Product> prods = table[input];
+            int holdPostion = 0;
+            for (int i = 0; i < prods.Count; i++)
+            {
+                prod = prods[i];
+                holdPostion = i;
+                while (holdPostion > 0 && String.Compare(prods[holdPostion - 1]._name,prod._name) > 0)
+                {
+                    prods[holdPostion] = prods[holdPostion - 1];
+                    holdPostion = holdPostion - 1;
+                }
+                prods[holdPostion] = prod;
+            }
+            return prods;
         }
 
         public List<Product> mapProductByCategory(List<Product> pros, List<Category> cate)

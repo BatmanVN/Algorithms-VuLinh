@@ -43,19 +43,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="CalculateSalaryDemo.cs" />
-    <Compile Include="Category.cs" />
-    <Compile Include="Database.cs" />
+    <Compile Include="Stack.cs" />
+    <Compile Include="CalculateSalaryDemo.cs" />
+    <Compile Include="1-16\Category.cs" />
+    <Compile Include="1-16\Database.cs" />
     <Compile Include="DataSalary.cs" />
-    <Compile Include="Entity.cs" />
+    <Compile Include="1-16\Entity.cs" />
     <Compile Include="KeyDic.cs" />
     <Compile Include="Menu.cs" />
     <Compile Include="MenuData.cs" />
-    <Compile Include="MenuDemo.cs" />
-    <Compile Include="Product.cs" />
-    <Compile Include="ProductManager.cs" />
-    <None Include="Program.cs" />
+    <None Include="MenuDemo.cs" />
+    <Compile Include="1-16\Product.cs" />
+    <None Include="1-16\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Queu.cs" />
     <Compile Include="SigleTon.cs" />
   </ItemGroup>
   <ItemGroup>

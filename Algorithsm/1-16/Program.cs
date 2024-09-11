@@ -13,14 +13,15 @@ namespace Algorithsm
 
         static void Main(string[] args)
         {
-            FindProductByName();
-            FindProductByCateID();
-            FindProductByPrice();
-            SortByPrice();
-            SortByNameLenght();
-            MapProductByCate();
-            MinPrice();
-            MaxPrice();
+            //FindProductByName();
+            //FindProductByCateID();
+            //FindProductByPrice();
+            //SortByPrice();
+            //SortByNameLenght();
+            SortByNameTable();
+            //MapProductByCate();
+            //MinPrice();
+            //MaxPrice();
             Console.ReadKey();
         }
 
@@ -66,16 +67,24 @@ namespace Algorithsm
         public static void SortByPrice()
         {
             Console.WriteLine("\n-Sort Price: ");
-            List<Product> products = new List<Product>();
-            products = Database.Instance.SortByPrice(products);
+            List<Product> products = products = Database.Instance.SortByPrice(Database.Instance.Products); ;
             PrintTable(products);
         }
         public static void SortByNameLenght()
         {
             Console.WriteLine("\n-Sort Name Lenght: ");
-            List<Product> products = new List<Product>();
-            products = Database.Instance.SortByName(products);
+            List<Product> products = Database.Instance.SortByName(Database.Instance.Products);
             PrintTable(products);
+        }
+        public static void SortByNameTable()
+        {
+            Console.WriteLine("\n-Sort Name Lenght: ");
+            for (int i = 0; i < Database.Instance.table.Count; i++)
+            {
+                List<Product> products = Database.Instance.sortByCategoryName(Database.Instance.Products, Database.Instance.Categories, i+1);
+                Console.WriteLine($"Category: {Database.Instance.Categories[i].name}");
+                PrintTable(products);
+            }
         }
         public static void MapProductByCate()
         {

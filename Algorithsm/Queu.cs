@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Algorithsm
 {
-    internal class ProductManager
+    public class Queu<T>
     {
 
     }

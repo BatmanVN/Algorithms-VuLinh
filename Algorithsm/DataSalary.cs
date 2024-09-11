@@ -16,9 +16,7 @@ namespace Algorithsm
             for (int i = 0; i < n; i++)
             {
                 if (i < n)
-                {
-                    salary += salary * bonus;
-                }
+                   salary += salary * bonus;
             }
             return salary;
         }
@@ -26,12 +24,15 @@ namespace Algorithsm
         public float calSalaryRecursion(float salary, int n)
         {
             float bonus = 10f / 100f;
-            if (n == 1)
+            if (n == 0)
             {
-                salary += salary * bonus;
                 return salary;
             }
-            return calSalaryRecursion(salary, n - 1) + calSalaryRecursion(salary, n - 1) * bonus;
+            if (n > 0)
+            {
+                salary += salary * bonus;
+            }
+            return calSalaryRecursion(salary, n - 1);
         }
 
         public float callMonth(float money, float rate)
@@ -54,9 +55,7 @@ namespace Algorithsm
                 holdMoney = money * (rate / 100f);
             }
             if (money >= Money * 2)
-            {
                 return month;
-            }
             money += holdMoney;
             return callMonthRecurison(money, rate, month + 1);
         }
